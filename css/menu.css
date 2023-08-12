@@ -230,14 +230,31 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
 }
-.flex-container {
+.menu-header {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-container {
+  width: 40%;
+}
+.menu-container {
+  background-color: rgb(0, 4, 17, 0.8);
 }
 .cesitler {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
-
+.acıklama p {
+  font-size: 2em;
+  margin-bottom: 3rem;
+}
+.menu-bolumleri {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 /* footer section */
 footer {
   width: 100%;
